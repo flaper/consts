@@ -1,6 +1,7 @@
 #Configs
 *.log
-
+node_modules
 # IDE #
 .idea/
 *.swp
+dist
