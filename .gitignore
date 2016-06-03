@@ -1,0 +1,6 @@
+#Configs
+*.log
+
+# IDE #
+.idea/
+*.swp

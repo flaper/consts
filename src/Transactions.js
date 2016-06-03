@@ -1,0 +1,8 @@
+export const TRANSACTIONS_TYPES = {
+    ADMIN_TRANSFERRING: 0,
+    VIEW: 1,
+    CHARITY: 2,
+    WITHDRAWAL: 3,
+    BUSINESS_PAYMENT: 4,
+    BEST_STORY: 5
+};
