@@ -1,6 +1,6 @@
 {
   "name": "@flaper/consts",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "consts for flaper",
   "main": "dist/index.js",
   "scripts": {
