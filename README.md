@@ -4,8 +4,6 @@
 Установка:
 
 `install @flaper/consts --save`
-
-
 ### Environment
 От ENV зависят ссылки для картинок. 
 По умолчанию ENV=production.
