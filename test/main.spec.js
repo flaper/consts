@@ -1,4 +1,4 @@
-import {App, FlaperImage} from '../src/index.js'
+import {App, FlaperImage, OBJECT_PERMISSIONS} from '../src/index.js'
 let should = require('chai').should();
 
 describe('main', () => {
@@ -10,6 +10,7 @@ describe('main', () => {
      App.isTestEnv().should.eq(true);
      App.setEnv(envBefore);
   });
+
   it('getBucketName depends on env', () => {
      let envBefore = App.getEnv('test');
      let bucket = FlaperImage.getBucketName();
@@ -18,5 +19,9 @@ describe('main', () => {
      bucket = FlaperImage.getBucketName();
      bucket.should.eq('flaper.test.images');
      App.setEnv(envBefore);
+  });
+
+  it('OBJECT_PERMISSIONS', () => {
+    Object.keys(OBJECT_PERMISSIONS).length.should.least(5);
   });
 });
