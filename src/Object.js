@@ -1,4 +1,5 @@
 export const OBJECT_PERMISSIONS = {
+  OWNER: 'owner', //общее право для всех владельцев
   LOGO: 'logo', // изменять логотип
   ANSWER: 'answer', // официальный ответ,
   NO_INDEX: 'no_index', // установка no_index
