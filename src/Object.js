@@ -2,7 +2,7 @@ export const OBJECT_PERMISSIONS = {
   LOGO: 'logo', // изменять логотип
   ANSWER: 'answer', // официальный ответ,
   NO_INDEX: 'no_index', // установка no_index
-  INFO_CHANGE: 'info_protection', // редактирование объекта
+  INFO_CHANGE: 'info_change', // редактирование объекта
   INFO_PROTECTION: 'info_protection', // защита от редактирования
   IMAGE_UPLOAD: 'image_upload', // добавление изображений
   IMAGE_REMOVE: 'image_remove', // удаление изображений
