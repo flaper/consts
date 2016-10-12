@@ -10,6 +10,7 @@
     "prepublish": "npm run compile"
   },
   "author": "",
+  "typings":"./consts.d.ts",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.14.0",
